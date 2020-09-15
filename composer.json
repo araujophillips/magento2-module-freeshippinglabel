@@ -1,0 +1,22 @@
+{
+    "name": "araujophillips/magento2-module-freeshippinglabel",
+    "description": "Replace the shipping method price with 'Free shipping' when it is ZERO.",
+    "require": {
+        "php": "^7.1",
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.1",
+    "authors": [
+      {
+        "name": "Alejandro Araujo Phillips",
+        "email": "araujophillips@gmail.com"
+      }
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "AraujoPhillips\\FreeShippingLabel\\": ""
+        }
+    }
+}
